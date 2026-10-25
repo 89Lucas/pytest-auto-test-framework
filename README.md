@@ -3,6 +3,7 @@
 基于Python+pytest+requests+selenium+allure搭建自动化测试框架，支持接口自动化、Web UI自动化，Yaml配置管理
 
 #📌 项目介绍
+
 本框架采用pytest测试框架作为核心，分层设计，将接口请求封装、页面元素操作、测试用例、配置文件分离，方便维护扩展。
 - 接口自动化：requests封装请求，支持参数化、接口关联、断言
 - Web UI自动化：selenium二次封装基础页面操作
