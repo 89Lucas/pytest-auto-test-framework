@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","1093","test_get","cases","2026-10-25","passed","2026-10-25","TestApi","test_api","",""
-"","861","test_open_page","cases","2026-10-25","passed","2026-10-25","TestWeb","test_web","",""
-"","307","test_post","cases","2026-10-25","passed","2026-10-25","TestApi","test_api","",""
