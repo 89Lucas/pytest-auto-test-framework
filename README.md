@@ -12,21 +12,28 @@
 Python3 | pytest | requests | selenium | allure-pytest | PyYAML
 
 ## 📁 目录结构
-├── cases/                # 测试用例
-│   ├── test_api.py       # 接口测试用例
-│   └── test_web.py       # UI 测试用例
-├── common/               # 公共封装层
-│   ├── request_util.py   # 请求封装
-│   └── selenium_base.py  # selenium 基础封装
-├── config/
-│   └── config.yaml       # 配置文件
-├── conftest.py           # pytest 钩子、fixture
-├── run.py                # 执行入口
-└── requirements.txt      # 依赖包
+pytest-auto-test-framework/
+├── cases/                  # 测试用例
+│   ├── test_api.py         # 接口测试用例
+│   └── test_web.py         # UI 测试用例
+├── common/                 # 公共封装层
+│   ├── request_util.py     # 请求封装
+│   └── selenium_base.py    # selenium 基础封装
+├── config/                 # 配置文件
+│   └── config.yaml         # 配置文件
+├── conftest.py             # pytest 钩子、fixture
+├── run.py                  # 执行入口
+└── requirements.txt        # 依赖包
 
 ## 🚀 运行方式
 1. 安装依赖
 ```bash
 pip install -r requirements.txt
 pytest --alluredir=allure-results
+allure serve allure-results
+
+2. 执行用例，生成 allure 结果
+pytest --alluredir=allure-results
+
+3. 启动 allure 报告服务
 allure serve allure-results
