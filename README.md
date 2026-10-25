@@ -11,6 +11,7 @@
 - 配置管理：yaml统一管理地址、账号等环境信息
 
 #🛠 技术栈
+
 Python3 | pytest | requests | selenium | allure-pytest | PyYAML
 
 #📂 目录结构
